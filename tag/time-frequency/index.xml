@@ -5,7 +5,7 @@
     <link>https://deebeebolger.github.io/tag/time-frequency/</link>
       <atom:link href="https://deebeebolger.github.io/tag/time-frequency/index.xml" rel="self" type="application/rss+xml" />
     <description>Time-frequency</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://deebeebolger.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Time-frequency</title>
@@ -15,9 +15,10 @@
     <item>
       <title>Images of Climate Change: A Deep Learning Model</title>
       <link>https://deebeebolger.github.io/project/climatechange_deepl/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://deebeebolger.github.io/project/climatechange_deepl/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <description>&lt;p&gt;The urgency of the climate crises is no longer a subject of debate, the urgency is real and this is increasingly acknowledged both at the levels of public administrations and at the individual level. But despite this universal acknowledgement, positive and effective action is not always quick to follow and inciting people to take effective action is not an easy task. Therefore, the question of how to encourage people towards positive action is an increasingly crucial one. In todays world, visual communication through images has a central role and increasingly, research on the effective communication of Climate Change (CC) is addressing how to exploit this visual world to incite people to act. Studies on the cognitive, affective and behavioral effects of images is playing a central role in this work with the emergence of databases of images, including a small number specificalluy dedicated to CC, in which images have been rated in terms of emotional valence and arousal. Such research and image databases constitute a precious resource for testing, in an objective manner, the effect of images and their potential to encourage postiive CC action. One such database is the &lt;strong&gt;French Affective Images of Climate Change&lt;/strong&gt; (FAICC) data (Otavi, Roussel &amp;amp; Syssau, 2021); this database is particularly useful in that images have been rated in terms of their &lt;strong&gt;arousal&lt;/strong&gt; and &lt;strong&gt;valence&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The aim of the present work is to test the images from the FAICC with a model of emotion recognition. The emotion recognition model is built by training and testing a CCN (Convolutional Neural Network) on electroencephalography (EEG) data from the DEAP database (Koelstra et al, 2012). This EEG data was recorded while participants viewed 40, 1 minute music video excerpts that had been rated in terms of their &lt;strong&gt;arousal&lt;/strong&gt;, &lt;strong&gt;emotional valence&lt;/strong&gt;, &lt;strong&gt;dominance&lt;/strong&gt; and &lt;strong&gt;familiarity&lt;/strong&gt;. These ratings were attributed according to a 9-point Likert scale.&lt;/p&gt;
 </description>
     </item>
     
