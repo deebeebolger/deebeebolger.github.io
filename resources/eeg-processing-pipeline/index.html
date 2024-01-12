@@ -932,8 +932,28 @@
     This pipeline is under continual developement.
   </div>
 </div>
-<p>This EEG pre-processing pipeline carries out the various steps of data cleaning necessary to prepare the EEG data for further analyses, such as ERP (event-related potentials) analyses and time-frequency based analyses. It applies functions from both the <strong>PREP pipeline</strong> (<em>Bigdeley-Shamlo et al, 2015</em>) and EEGLAB&rsquo;s <strong>clean_rawdata</strong> plugin. The <strong>ICLabel</strong> plugin deployed in EEGLAB is applied to automatically detect components corresponding to different artifact categories (eye, muscle, cardiac etc. ) and to distinguish these components from those with a high probability of corresponding to brain activity.</p>
-<p>To use this pipeline, the following is required:</p>
+<p>This EEG pre-processing pipeline carries out the various steps of data cleaning necessary to prepare the EEG data for further analyses, such as ERP (event-related potentials) analyses and time-frequency based analyses. It applies functions from both the <strong>PREP pipeline</strong> (<em>Bigdeley-Shamlo et al, 2015</em>) and EEGLAB&rsquo;s <strong>clean_rawdata</strong> plugin. The <strong>ICLabel</strong> plugin deployed in EEGLAB is applied to automatically detect components corresponding to different artifact categories (eye, muscle, cardiac etc. ) and to distinguish these components from those with a high probability of corresponding to brain activity. The different steps comprising the pipeline are presented in the figure above.</p>
+<p>The code is available from the following Github link: <a href="https://github.com/deebeebolger/CREx_EEGPipeline2023.git" target="_blank" rel="noopener">https://github.com/deebeebolger/CREx_EEGPipeline2023.git</a></p>
+<p>To use this pipeline, the following is required and needs to be on your Matlab search path:</p>
+<ul>
+<li><strong>PREPPipeline toolbox</strong>: It can be downloaded from <a href="https://vislab.github.io/EEG-Clean-Tools/" target="_blank" rel="noopener">https://vislab.github.io/EEG-Clean-Tools/</a></li>
+<li><strong>EEGLAB 2023</strong>: It can be downloaded from <a href="https://eeglab.org/others/How_to_download_EEGLAB.html" target="_blank" rel="noopener">https://eeglab.org/others/How_to_download_EEGLAB.html</a> and should have the <strong>clean_rawdata</strong> plugin installed in the EEGLAB plugin folder.</li>
+<li><strong>ERPlab toolbox</strong>: It can be downloaded from <a href="https://github.com/ucdavis/erplab/releases" target="_blank" rel="noopener">https://github.com/ucdavis/erplab/releases</a>. ERPlab is used to define the Bin Descriptor Files (BDF), which provides quite a neat means of defining event data, especially when the trigger structure is complex.</li>
+</ul>
+<p>To run the pipeline, type the following in the Matlab command window: <code>CREx_EEGPipeline() </code></p>
+<p>The main script calls the following functions:</p>
+<ul>
+<li><code>Àdd_EventList()</code> to add EventList to current EEG structure using ERPLAB binlister() function.</li>
+<li><code>pop_resample()</code> EEGLAB function to resample data, which uses resample() function from Matlab&rsquo;s Signal Processing Toolbox</li>
+<li><code>removeTrend()</code> PrepPipeline function to remove trend in the data using either a highpass filter or linear detrending. This pipeline uses a highpass filter by default.</li>
+<li><code>showSpectrum()</code>PrepPipeline function to plot channel spectra.</li>
+<li><code>removeLineNoise()</code>PrepPipeline function that applies the Cleanline algorithm to correct line noise.</li>
+<li><code>pop_clean_rawdata()</code>EEGLAB function from the <em>clean_rawdata</em> plugin.</li>
+<li><code>pop_eegfiltnew()</code>EEGLAB function that applies EEGLAB&rsquo;s default <em>Hamming windowed sinc FIR</em> filter.</li>
+<li><code>runica()</code>EEGLAB function to carry out ICA by applying the <strong>infomax</strong> algorithm.</li>
+<li><code>pop_iclabel()</code>Function from EEGLAB plugin <strong>ICLabel</strong> that automatically identifies artifact-related components.</li>
+<li><code>pop_epochbin()</code> ERPLAB function to segment continuous data with Eventlist.</li>
+</ul>
 <p>Slides can be added in a few ways:</p>
 <ul>
 <li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
