@@ -23,6 +23,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;This EEG pre-processing pipeline carries out the various steps of data cleaning necessary to prepare the EEG data for further analyses, such as ERP (event-related potentials) analyses and time-frequency based analyses. It applies functions from both the &lt;strong&gt;PREP pipeline&lt;/strong&gt; (&lt;em&gt;Bigdeley-Shamlo et al, 2015&lt;/em&gt;) and EEGLAB&amp;rsquo;s &lt;strong&gt;clean_rawdata&lt;/strong&gt; plugin. The &lt;strong&gt;ICLabel&lt;/strong&gt; plugin deployed in EEGLAB is applied to automatically detect components corresponding to different artifact categories (eye, muscle, cardiac etc. ) and to distinguish these components from those with a high probability of corresponding to brain activity.&lt;/p&gt;
+&lt;p&gt;To use this pipeline, the following is required:&lt;/p&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
