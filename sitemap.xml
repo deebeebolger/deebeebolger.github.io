@@ -2,12 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://deebeebolger.github.io/talk/example-talk/</loc>
+    <loc>https://deebeebolger.github.io/talk/eeg-preprocessing-pipeline/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://deebeebolger.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://deebeebolger.github.io/resources/eeg-processing-pipeline/</loc>
+    <lastmod>2024-01-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://deebeebolger.github.io/resources/</loc>
+    <lastmod>2024-01-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://deebeebolger.github.io/tag/bci/</loc>
