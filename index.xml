@@ -7,7 +7,7 @@
     <description>CREx EEG</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://deebeebolger.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://deebeebolger.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>CREx EEG</title>
       <link>https://deebeebolger.github.io/</link>
     </image>
@@ -318,7 +318,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-526973418&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-962457381&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -328,7 +328,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-526973418&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-962457381&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -822,6 +822,14 @@ $$&lt;/p&gt;
       <guid>https://deebeebolger.github.io/terms/</guid>
       <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>The role of premotor activity in action word processing - A combined EEG and VR study</title>
+      <link>https://deebeebolger.github.io/project/eeg-vr1/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://deebeebolger.github.io/project/eeg-vr1/</guid>
+      <description></description>
     </item>
     
     <item>

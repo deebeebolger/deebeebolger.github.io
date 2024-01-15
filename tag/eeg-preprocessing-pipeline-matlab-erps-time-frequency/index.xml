@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EEG Preprocessing Pipeline Matlab ERPs Time-Frequency | CREx EEG</title>
+    <link>https://deebeebolger.github.io/tag/eeg-preprocessing-pipeline-matlab-erps-time-frequency/</link>
+      <atom:link href="https://deebeebolger.github.io/tag/eeg-preprocessing-pipeline-matlab-erps-time-frequency/index.xml" rel="self" type="application/rss+xml" />
+    <description>EEG Preprocessing Pipeline Matlab ERPs Time-Frequency</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://deebeebolger.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>EEG Preprocessing Pipeline Matlab ERPs Time-Frequency</title>
+      <link>https://deebeebolger.github.io/tag/eeg-preprocessing-pipeline-matlab-erps-time-frequency/</link>
+    </image>
+    
+    <item>
+      <title>EEG Preprocessing Pipeline</title>
+      <link>https://deebeebolger.github.io/resources/eeg-processing-pipeline/</link>
+      <pubDate>Mon, 01 Jan 2024 13:00:00 +0000</pubDate>
+      <guid>https://deebeebolger.github.io/resources/eeg-processing-pipeline/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This pipeline is under continual developement.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This EEG pre-processing pipeline carries out the various steps of data cleaning necessary to prepare the EEG data for further analyses, such as ERP (event-related potentials) analyses and time-frequency based analyses. It applies functions from both the &lt;strong&gt;PREP pipeline&lt;/strong&gt; (&lt;em&gt;Bigdeley-Shamlo et al, 2015&lt;/em&gt;) and EEGLAB&amp;rsquo;s &lt;strong&gt;clean_rawdata&lt;/strong&gt; plugin. The &lt;strong&gt;ICLabel&lt;/strong&gt; plugin deployed in EEGLAB is applied to automatically detect components corresponding to different artifact categories (eye, muscle, cardiac etc. ) and to distinguish these components from those with a high probability of corresponding to brain activity. The different steps comprising the pipeline are presented in the figure above.&lt;/p&gt;
+&lt;p&gt;The code is available from the following Github link: &lt;a href=&#34;https://github.com/deebeebolger/CREx_EEGPipeline2023.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/deebeebolger/CREx_EEGPipeline2023.git&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To use this pipeline, the following is required and needs to be on your Matlab search path:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PREPPipeline toolbox&lt;/strong&gt;: It can be downloaded from &lt;a href=&#34;https://vislab.github.io/EEG-Clean-Tools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vislab.github.io/EEG-Clean-Tools/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EEGLAB 2023&lt;/strong&gt;: It can be downloaded from &lt;a href=&#34;https://eeglab.org/others/How_to_download_EEGLAB.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://eeglab.org/others/How_to_download_EEGLAB.html&lt;/a&gt; and should have the &lt;strong&gt;clean_rawdata&lt;/strong&gt; plugin installed in the EEGLAB plugin folder.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ERPlab toolbox&lt;/strong&gt;: It can be downloaded from &lt;a href=&#34;https://github.com/ucdavis/erplab/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ucdavis/erplab/releases&lt;/a&gt;. ERPlab is used to define the Bin Descriptor Files (BDF), which provides quite a neat means of defining event data, especially when the trigger structure is complex.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To run the pipeline, type the following in the Matlab command window: &lt;code&gt;CREx_EEGPipeline() &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The main script calls the following functions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Àdd_EventList()&lt;/code&gt; to add EventList to current EEG structure using ERPLAB binlister() function.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pop_resample()&lt;/code&gt; EEGLAB function to resample data, which uses resample() function from Matlab&amp;rsquo;s Signal Processing Toolbox&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;removeTrend()&lt;/code&gt; PrepPipeline function to remove trend in the data using either a highpass filter or linear detrending. This pipeline uses a highpass filter by default.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;showSpectrum()&lt;/code&gt;PrepPipeline function to plot channel spectra.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;removeLineNoise()&lt;/code&gt;PrepPipeline function that applies the Cleanline algorithm to correct line noise.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pop_clean_rawdata()&lt;/code&gt;EEGLAB function from the &lt;em&gt;clean_rawdata&lt;/em&gt; plugin.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pop_eegfiltnew()&lt;/code&gt;EEGLAB function that applies EEGLAB&amp;rsquo;s default &lt;em&gt;Hamming windowed sinc FIR&lt;/em&gt; filter.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;runica()&lt;/code&gt;EEGLAB function to carry out ICA by applying the &lt;strong&gt;infomax&lt;/strong&gt; algorithm.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pop_iclabel()&lt;/code&gt;Function from EEGLAB plugin &lt;strong&gt;ICLabel&lt;/strong&gt; that automatically identifies artifact-related components.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pop_epochbin()&lt;/code&gt; ERPLAB function to segment continuous data with Eventlist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
