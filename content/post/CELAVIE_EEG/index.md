@@ -9,7 +9,9 @@ Overview of resting-state EEG processing and analysis carried out in the context
 
 <!--more-->
 
-**Flowchart of RELAX pipeline applied to resting-state hdEEG data**
+## Flowchart of RELAX pipeline applied to resting-state hdEEG data
+
+This is a data flowchart showing the principle steps applied in the implementation of the RELAX pipeline used to preprocess the hdEEG resting-state data.
 ```mermaid
 flowchart TD;
 
