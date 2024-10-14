@@ -8,8 +8,10 @@ image:
 Overview of resting-state EEG processing and analysis carried out in the context of the Celavie project.
 
 <!--more-->
+[[module.imports]]
+path = "github.com/hugomods/mermaid"
 
-{{< mermaid >}}
+{{% mermaid %}}
 sequenceDiagram
     participant Alice
     participant Bob
@@ -21,4 +23,4 @@ sequenceDiagram
     John-->Alice: Great!
     John->Bob: How about you?
     Bob-->John: Jolly good!
-{{< /mermaid >}}
+{{% /mermaid %}}
