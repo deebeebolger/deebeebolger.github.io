@@ -9,8 +9,10 @@ Overview of resting-state EEG processing and analysis carried out in the context
 
 <!--more-->
 
-{{< mermaid >}}
-pie title Do you like Hugo?
-"Yes" : 90
-"Also yes, but in yellow" : 10
-{{< /mermaid >}}
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
