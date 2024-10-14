@@ -3,22 +3,22 @@
 title: Nelson Bighetti
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Deirdre
+last_name: Bolger
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Engineer in scientifique computing and data analysis
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Institute of Language, Communication and the Brain (ILCB), Aix-Marseille University (AMU)
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Scientific computing and data analysis for the support of neurophysiological and behavioral studies on language and communication.
 
 interests:
   - Artificial Intelligence
