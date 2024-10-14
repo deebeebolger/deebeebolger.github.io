@@ -8,3 +8,5 @@ date: 2024-10-14
 
 [Link to filtering page]({{< ref "Data-Flowchart/filtering/index.md" >}})
 [Link to config file page]({{< ref "Data-Flowchart/config-file/index.md" >}})
+[Link to BIDS page]({{< ref "Data-Flowchart/BIDS/index.md" >}})
+[Link to exclude externals page]({{< ref "Data-Flowchart/Exclude-Externals/index.md" >}})
