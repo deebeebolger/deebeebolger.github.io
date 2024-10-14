@@ -5,11 +5,11 @@ image:
   focal_point: 'top'
 ---
 
-Overview of resting-state EEG processing and analysis carried out in the context of the Celavie project.
-
 <!--more-->
 
-## Flowchart of RELAX pipeline applied to resting-state hdEEG data
+[Link to filtering page]({{< ref "flowchartpages/filtering/index.md" >}})
+
+## RELAX pipeline data flowchart
 
 This is a data flowchart showing the principle steps applied in the implementation of the RELAX pipeline used to preprocess the hdEEG resting-state data.
 ```mermaid
