@@ -2,6 +2,8 @@
 title: Noisy channel detection with PREP pipeline approach.
 summary: This page outlines the detection of noisy channels applied using an approach from the PREP pipeline.
 date: 2024-10-14
+
+placement: 3
 ---
 There are three stages to the noisy channel detection stage of the pipeline. In rejecting channel-wise data, the follow criteria are applied: 
 
