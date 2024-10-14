@@ -11,7 +11,7 @@ sections:
         CREx:
         Engineering support for ILCB research projects.
       image:
-        filename: welcome.jpg
+        filename: ILCB_logo_squared_web.png
       text: |
         <br>
         
