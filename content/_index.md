@@ -19,7 +19,7 @@ sections:
   
   - block: collection
     content:
-      title: Overview of Projects
+      title: Overview of EEG Projects
       subtitle:
       text:
       count: 5
@@ -34,7 +34,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '1'
+      columns: '2'
   
   - block: markdown
     content:
