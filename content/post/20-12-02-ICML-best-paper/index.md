@@ -1,6 +1,6 @@
 ---
-title: Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020
-date: 2020-12-02
+title: CeLaVie Project
+date: 2024-10-14
 image:
   focal_point: 'top'
 ---

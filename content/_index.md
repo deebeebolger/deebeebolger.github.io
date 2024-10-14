@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        CREx
+        CREx:
         Engineering support for ILCB research projects.
       image:
         filename: welcome.jpg
@@ -19,7 +19,7 @@ sections:
   
   - block: collection
     content:
-      title: Latest News
+      title: Overview of Projects
       subtitle:
       text:
       count: 5
