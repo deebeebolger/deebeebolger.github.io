@@ -1,5 +1,5 @@
 ---
-title: EEG: CeLaVie Project
+title: EEG CeLaVie Project
 date: 2024-10-14
 image:
   focal_point: 'top'

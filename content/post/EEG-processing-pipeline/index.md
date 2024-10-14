@@ -1,5 +1,5 @@
 ---
-title: EEG: EEG Preprocessing pipeline
+title: EEG Preprocessing pipeline
 date: 2024-10-14
 image:
   focal_point: 'top'
