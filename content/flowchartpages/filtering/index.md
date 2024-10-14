@@ -13,7 +13,7 @@ header:
   caption: ""
   image: ""
 ---
-<!--more-->
+
 
 ## Notch filter
 
