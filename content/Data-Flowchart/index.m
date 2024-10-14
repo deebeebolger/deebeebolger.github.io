@@ -10,3 +10,6 @@ date: 2024-10-14
 [Link to config file page]({{< ref "Data-Flowchart/config-file/index.md" >}})
 [Link to BIDS page]({{< ref "Data-Flowchart/BIDS/index.md" >}})
 [Link to exclude externals page]({{< ref "Data-Flowchart/Exclude-Externals/index.md" >}})
+[Link to downsampling page]({{< ref "Data-Flowchart/Downsamplng/index.md" >}})
+[Link to add channel coordinates]({{< ref "Data-Flowchart/AddChannelCoords/index.md" >}})
+[Link to noisy channel detection PREP]({{< ref "Data-Flowchart/NoisyChannelDetect_Prep/index.md" >}})
