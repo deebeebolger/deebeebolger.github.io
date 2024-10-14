@@ -10,7 +10,7 @@ image:
 
 ## RELAX pipeline data flowchart
 
-This is a data flowchart showing the principle steps applied in the implementation of the RELAX pipeline used to preprocess the hdEEG resting-state data.
+Below is a data flowchart showing the principle steps applied in the implementation of the RELAX pipeline used to preprocess the hdEEG resting-state data.
 You can access the details of each stage of the data flowchart via [this page...]({{< ref "Data-Flowchart/index.md" >}})
 ```mermaid
 
