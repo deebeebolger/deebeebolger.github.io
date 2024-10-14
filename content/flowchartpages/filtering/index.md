@@ -17,7 +17,7 @@ header:
 
 ## Notch filter
 
-A **4th order Butterworth filter** is applied with cutoff 3Hz above and below 50Hz, which implies low and high cutoff of 47Hz and 53Hz, respectively.
+A **4th order Butterworth filter** is applied with cutoff 3Hz above and below 50Hz, which implies low and high cutoff of 47Hz and 53Hz, respectively. 
 
 ### High-pass filter
 
