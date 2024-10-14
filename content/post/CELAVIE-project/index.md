@@ -1,11 +1,11 @@
 ---
-title: CeLaVie Project
+title: EEG: CeLaVie Project
 date: 2024-10-14
 image:
   focal_point: 'top'
 ---
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
+Overview of resting-state EEG processing and analysis carried out in the context of the Celavie project.
 
 <!--more-->
 
