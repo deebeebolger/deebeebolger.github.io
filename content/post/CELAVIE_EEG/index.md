@@ -23,6 +23,7 @@ AddRS --> AddChan(Add channel coordinate information to EEG structure);
 AddChan --> ScalpRej([Delete scalp channels marked for rejection]);
 ScalpRej --> Notch([Apply notch filter, 4th order Butterworth: 47Hz - 53Hz]);
 Notch --> HPfilt([Apply high-pass filter, 4th order Butterworth : 0.25Hz]);
+click Notch ({{< ref "flowchartpages/filtering/index.md" >}}) _blank
 HPfilt --> RSamp([Downsample the data]);
 RSamp -->|Plot Channel Spectra|Prep([Detect noisy channels: PREP pipeline function]);
 Prep --> EpClean([Epoch data to detect extremely noisy time periods: 1second epochs]);
