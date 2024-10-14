@@ -1,21 +1,21 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-10-14
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        CREx
+        Engineering support for ILCB research projects.
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The CREx (Centre de Ressources pour l'Experimentation) is composed of a team of engineers specialized in data analysis and scientific computing. Within the perimeter they apply this expertise to support studies on language and communication. The acquisition, processing and analysis of neurophysiological, neuroimaging and behavioural data (fMRI, EEG, MEG and eye-tracking) forms the core of their work. 
   
   - block: collection
     content:

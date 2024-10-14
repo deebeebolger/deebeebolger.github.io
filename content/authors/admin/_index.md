@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Deirdre Bolger
 
 # Full Name (for SEO)
 first_name: Deirdre
