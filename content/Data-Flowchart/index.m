@@ -14,4 +14,5 @@ header:
   image: ""
 ---
 
-[Link to filtering page]({{< ref "flowchartpages/filtering/index.md" >}})
+[Link to filtering page]({{< ref "Data-Flowchart/filtering/index.md" >}})
+[Link to config file page]({{< ref "Data-Flowchart/config-file/index.md" >}})
