@@ -12,7 +12,7 @@ Overview of resting-state EEG processing and analysis carried out in the context
 **Flowchart of RELAX pipeline applied to resting-state hdEEG data**
 
 ```mermaid
-flowchart TD
+flowchart TD;
 %% Colors %%
 
 classDef blue fill:#2374f7, stroke:#000, stroke-width: px, color:#fff
