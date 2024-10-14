@@ -34,7 +34,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '2'
+      columns: '3'
   
   - block: markdown
     content:
