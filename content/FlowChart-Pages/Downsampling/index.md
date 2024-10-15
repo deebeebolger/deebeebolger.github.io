@@ -1,5 +1,5 @@
 ---
-title: Downsampling details
+title: 6 Downsampling details
 summary: This page gives details on downsampling carried out in this implementation of the RELAX pipeline.
 date: 2024-10-14
 ---

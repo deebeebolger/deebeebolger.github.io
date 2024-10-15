@@ -1,5 +1,5 @@
 ---
-title: Wavelet-enhanced ICA on ICLabel classified ICs
+title: 15 Wavelet-enhanced ICA on ICLabel classified ICs
 summary: This page details the application of wavelet-enhanced ICA on ICs classified using the ICLable plugin.
 date: 2024-10-15
 ---

@@ -1,5 +1,5 @@
 ---
-title: Independent Components Analysis (ICA)
+title: 14 Independent Components Analysis (ICA)
 summary: This page details ICA computation carried out in the current implementation of the RELAX pipeline.
 date: 2024-10-15
 ---

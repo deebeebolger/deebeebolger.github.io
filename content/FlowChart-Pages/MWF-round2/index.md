@@ -1,5 +1,5 @@
 ---
-title: Multi-channel Wiener Filtering round 2
+title: 11 Multi-channel Wiener Filtering round 2
 summary: This page details the second round of MWF applied in this implementation of the RELAX pipeline.
 date: 2024-10-15
 ---
