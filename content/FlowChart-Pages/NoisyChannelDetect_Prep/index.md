@@ -10,11 +10,11 @@ There are three stages to the noisy channel detection stage of the pipeline. In 
 - In GUI: Maximum proportion of electrodes that can be deleted as bad: **RELAX_cfg.MaxProportionOfElectrodesThatCanBeDeleted** = **0.20** (20%)
 - In GUI: Extreme noise proportion electrode deletion threshold: **RELAX_cfg.ProportionOfExtremeNoiseAboveWhichToRejectChannel** = **0.05** (5%)
 
-## Initial bad channel detection using the PREP pipeline function
+## Initial bad channel detection using PREP pipeline function
 
 The ***findNoisyChannels()*** function from the **PREP pipeline** is applied. 
 
-This functions divides the data into time windows of a defined duration, which is set to 1 second by default.
+This functions divides the data into time windows of a defined duration, which is set to **1 second** by default.
 
 ### This function detects noisy channels according to the following 3 criteria:
 
