@@ -1,7 +1,7 @@
 ---
 title: Create RELAX configuration file 
 summary: Here we describe how the RELAX configuration file is created.
-date: "2024-10-15T09:26:00Z"
+date: 2024-10-15
 
 reading_time: false  # Show estimated reading time?
 share: false  # Show social sharing links?

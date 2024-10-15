@@ -1,7 +1,7 @@
 ---
 title: 5 Filtering Parameters 
 summary: Here we describe the applied filters and their parameters.
-date: 2024-10-14
+date: 2024-10-15
 
 reading_time: false  # Show estimated reading time?
 share: false  # Show social sharing links?
