@@ -1,9 +1,8 @@
 ---
 title: Add channel coordinates
 summary: This page details how channel coordinates are added to the participant-level data.
+date: "2024-10-15T09:28:00Z"
 
-show_date: true
-show_time: true
 ---
 The channel coordinates are provided by 4 coordinates files; each coordinates file corresponds to a specific cap size. The four coordinates files are the following:
 
