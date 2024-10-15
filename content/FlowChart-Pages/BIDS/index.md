@@ -1,7 +1,9 @@
 ---
-title: 2 Structuring data in BIDS
+title: Structuring data in BIDS
 summary: This page details how the raw and processed data are structured according to BIDS. 
-date: 2024-10-14
+
+show_date: true
+show_time: true
 
 ---
 The EEG along with its accompanying meta data has been used to structure the data in BIDS (Brain Imaging Data Structure) format. The structuring applied is based on that described in Pernet et al (2019) and summarized in figure 1. 
