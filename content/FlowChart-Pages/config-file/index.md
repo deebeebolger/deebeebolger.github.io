@@ -1,12 +1,13 @@
 ---
-title: A. Create RELAX configuration file 
+title: Create RELAX configuration file 
 summary: Here we describe how the RELAX configuration file is created.
-date: 2024-10-14
 
 reading_time: false  # Show estimated reading time?
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
 comments: false  # Show comments?
+show_date: true
+show_time: true
 
 # Optional header image (relative to `assets/media/` folder).
 header:
