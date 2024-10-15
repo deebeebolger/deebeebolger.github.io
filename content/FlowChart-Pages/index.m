@@ -5,13 +5,6 @@ date: 2024-10-15T09:25:00-08:00
 
 placement: 3
 
-sections:
-    - block: collection
-    - id: posts
-    - content:
-        - title: RELAX pipeline processing stages
-        - sort_by: 'date'
-        - sort_ascending: true
 ---
 
 <!--more-->
