@@ -1,5 +1,5 @@
 ---
-title: Add channel coordinates
+title: 4 Add channel coordinates
 summary: This page details how channel coordinates are added to the participant-level data.
 date: 2024-10-14
 ---

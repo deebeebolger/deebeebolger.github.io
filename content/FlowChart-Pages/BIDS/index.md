@@ -1,5 +1,5 @@
 ---
-title: Structuring data in BIDS
+title: 2 Structuring data in BIDS
 summary: This page details how the raw and processed data are structured according to BIDS. 
 date: 2024-10-14
 

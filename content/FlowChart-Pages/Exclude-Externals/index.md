@@ -1,5 +1,5 @@
 ---
-title: Exclude external channels
+title: 3 Exclude external channels
 summary: This page details the external channels excluded from data processing.
 date: 2024-10-14
 
