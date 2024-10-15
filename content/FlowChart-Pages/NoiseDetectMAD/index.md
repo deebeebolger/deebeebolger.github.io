@@ -1,5 +1,5 @@
 ---
-title: 8 Detection of noisy channels and time intervals via MAD
+title: Detection of noisy channels and time intervals via MAD
 summary: This page details the parameters applied for the detection of noisy channels and time intervals by computing MAD.
 date: 2024-10-15
 ---

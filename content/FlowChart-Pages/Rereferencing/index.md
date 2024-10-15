@@ -1,5 +1,5 @@
 ---
-title: 13 Rereferencing
+title: Rereferencing
 summary: This page details the re-referencing carried out after MWF rounds.
 date: 2024-10-15
 ---

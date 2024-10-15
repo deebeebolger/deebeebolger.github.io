@@ -1,5 +1,5 @@
 ---
-title: 9 Eye-blink detection using IQR approach
+title: Eye-blink detection using IQR approach
 summary: This page details the detection of vEOGs using the IQR approach.
 date: 2024-10-15
 ---
