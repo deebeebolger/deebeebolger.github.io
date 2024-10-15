@@ -1,7 +1,10 @@
 ---
-title: 3 Exclude external channels
+title: Exclude external channels
 summary: This page details the external channels excluded from data processing.
 date: 2024-10-14
+
+show_date: true
+show_time: true
 
 ---
 In the RELAX_cfg file, this parameter is called ***ElectrodesToDelete***. This information should be based on electrodes noted in the *cahier de manip* (lab notebook). By default, it is blank. In the CLV implementation, the following electrodes are marked for exclusion:
