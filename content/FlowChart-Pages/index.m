@@ -4,6 +4,14 @@ summary: This page provides links to pages detailing the different steps in the 
 date: 2024-10-14
 
 placement: 3
+
+sections:
+    - block: collection
+    - id: posts
+    - content:
+        - title: RELAX pipeline processing stages
+        - count: 20
+        - sort_by: 'count'
 ---
 
 <!--more-->
