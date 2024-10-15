@@ -18,8 +18,12 @@ placement: 3
 [Link to noisy channel and time detection MAD]({{< ref "FlowChart-Pages/NoiseDetectMAD/index.md" >}})
 [Link to eye-blink detection IQR]({{< ref "FlowChart-Pages/EyeBlinkIQR/index.md" >}})
 
-###Multi-channel Wiener Filtering in 3 rounds
 
 [Link to MWF round 1 page]({{< ref "FlowChart-Pages/MWF-round1/index.md" >}})
 [Link to MWF round 2 page]({{< ref "FlowChart-Pages/MWF-round2/index.md" >}})
 [Link to MWF round 3 page]({{< ref "FlowChart-Pages/MWF-round3/index.md" >}})
+
+[Link to rereferencing page]({{< ref "FlowChart-Pages/Rereferencing/index.md" >}})
+
+[Link to ICA infomax page]({{< ref "FlowChart-Pages/ICA-infomax/index.md" >}})
+[Link to wICA page]({{< ref "FlowChart-Pages/ICA-wICA/index.md" >}})
