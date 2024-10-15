@@ -1,7 +1,7 @@
 ---
 title: Detection of noisy channels and time intervals via MAD
 summary: This page details the parameters applied for the detection of noisy channels and time intervals by computing MAD.
-date: 2024-10-15
+date: 2024-10-08
 ---
 
 Extreme outlier detection is carried out using the **Median Absolute Deviation (MAD)**, which is more robust to outliers. The continuous data is segmented into 1 second epochs with a 50% overlap (500ms) and in each time segment the following is identified **to detect both electrodes and time segments** to mark for rejection:

@@ -1,7 +1,7 @@
 ---
-title: 6 Downsampling details
+title: Downsampling details
 summary: This page gives details on downsampling carried out in this implementation of the RELAX pipeline.
-date: 2024-10-14
+date: 2024-10-10
 ---
 Downsampling should, ideally, be carried out after low-pass filtering. However, given that the CeLaVie data was acquired at a sampling rate of 4096Hz and that a number of the preprocessing steps are computationally costly, it is necessary to reduce the number of samples before processing to other preprocessing steps. 
 

@@ -1,7 +1,7 @@
 ---
 title: Multi-channel Wiener Filtering round 3
 summary: This page details the third round of MWF applied in this implementation of the RELAX pipeline.
-date: 2024-10-15
+date: 2024-10-04
 ---
 In this 3rd round of Multi-channel Wiener Filtering (MWF), drift and horizontal ocular artifacts are detected.  The user has the option of running this 3rd MWF round.
 

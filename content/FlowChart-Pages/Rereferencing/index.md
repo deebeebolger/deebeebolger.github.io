@@ -1,7 +1,7 @@
 ---
 title: Rereferencing
 summary: This page details the re-referencing carried out after MWF rounds.
-date: 2024-10-15
+date: 2024-10-03
 ---
 After Multi-channel Wiener Filter (MWF) stages, the continuous data is re-referenced to the average across the scalp channels, excluding those channels marked as bad. 
 

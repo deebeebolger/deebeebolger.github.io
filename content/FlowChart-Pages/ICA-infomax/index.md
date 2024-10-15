@@ -1,7 +1,7 @@
 ---
 title: Independent Components Analysis (ICA)
 summary: This page details ICA computation carried out in the current implementation of the RELAX pipeline.
-date: 2024-10-15
+date: 2024-10-02
 ---
 
 ndependent Components Analysis (ICA) is a statistical and computational technique for blind source separation and feature extraction or to express this otherwise, for uncovering the hidden factors underlying sets of signals, random variables or measurements. The **data variables** that we feed into the ICA are assumed to be linear mixtures of a set of **latent variables** and both the **latent variables** and the **mixing system** is unknown. Importantly, the latent variables that ICA reveals, which we generally refer to as **independent components**, are assumed to be both **non-gaussian** and **mutually independent.** ICA is related to PCA, with the main difference that PCA assumes orthogonality and not independence, thus rendering it less powerful. PCA is often used in conjunction with ICA to carry out dimension reduction prior to ICA computation. 

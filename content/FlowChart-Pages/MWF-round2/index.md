@@ -1,7 +1,7 @@
 ---
 title: Multi-channel Wiener Filtering round 2
 summary: This page details the second round of MWF applied in this implementation of the RELAX pipeline.
-date: 2024-10-15
+date: 2024-10-05
 ---
 
 In this second round of MWF, blinks are mainly dealt with. However, it is also possible to detect eye-blinks in the first round, in which case the eye-blink mask will be integrated into the noise mask. To allow eye-blink cleaning in round 1:

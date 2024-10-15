@@ -1,7 +1,7 @@
 ---
 title: Eye-blink detection using IQR approach
 summary: This page details the detection of vEOGs using the IQR approach.
-date: 2024-10-15
+date: 2024-10-07
 ---
 
 This method creates a mask that specifies the localisation of eye-blinks in the continuous EEG by using an inter-quartile range threshold. 
