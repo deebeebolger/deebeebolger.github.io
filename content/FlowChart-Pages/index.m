@@ -10,7 +10,7 @@ sections:
     - id: posts
     - content:
         - title: RELAX pipeline processing stages
-        - sort_by: 'time'
+        - sort_by: 'date'
         - sort_ascending: true
 ---
 
