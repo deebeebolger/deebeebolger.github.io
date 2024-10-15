@@ -1,5 +1,5 @@
 ---
-title: 1 Create RELAX configuration file 
+title: A. Create RELAX configuration file 
 summary: Here we describe how the RELAX configuration file is created.
 date: 2024-10-14
 
