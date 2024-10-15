@@ -11,7 +11,8 @@ sections:
     - content:
         - title: RELAX pipeline processing stages
         - count: 20
-        - sort_by: 'title'
+        - sort_by: 'Date'
+        - sort_ascending: true
 ---
 
 <!--more-->
