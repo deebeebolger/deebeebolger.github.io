@@ -8,10 +8,13 @@ placement: 3
 
 <!--more-->
 
-[Link to filtering page]({{< ref "Data-Flowchart/filtering/index.md" >}})
-[Link to config file page]({{< ref "Data-Flowchart/config-file/index.md" >}})
-[Link to BIDS page]({{< ref "Data-Flowchart/BIDS/index.md" >}})
-[Link to exclude externals page]({{< ref "Data-Flowchart/Exclude-Externals/index.md" >}})
-[Link to downsampling page]({{< ref "Data-Flowchart/Downsamplng/index.md" >}})
-[Link to add channel coordinates]({{< ref "Data-Flowchart/AddChannelCoords/index.md" >}})
-[Link to noisy channel detection PREP]({{< ref "Data-Flowchart/NoisyChannelDetect_Prep/index.md" >}})
+[Link to filtering page]({{< ref "FlowChart-Pages/filtering/index.md" >}})
+[Link to config file page]({{< ref "FlowChart-Pages/config-file/index.md" >}})
+[Link to BIDS page]({{< ref "FlowChart-Pages/BIDS/index.md" >}})
+[Link to exclude externals page]({{< ref "FlowChart-Pages/Exclude-Externals/index.md" >}})
+[Link to downsampling page]({{< ref "FlowChart-Pages/Downsamplng/index.md" >}})
+[Link to add channel coordinates]({{< ref "FlowChart-Pages/AddChannelCoords/index.md" >}})
+[Link to noisy channel detection PREP]({{< ref "FlowChart-Pages/NoisyChannelDetect_Prep/index.md" >}})
+[Link to noisy channel and time detection MAD]({{< ref "FlowChart-Pages/NoiseDetectMAD/index.md" >}})
+[Link to eye-blink detection IQR]({{< ref "FlowChart-Pages/EyeBlinkIQR/index.md" >}})
+[Link to MWF round pages]({{< ref "FlowChart-Pages/MWF-steps/index.md" >}})
