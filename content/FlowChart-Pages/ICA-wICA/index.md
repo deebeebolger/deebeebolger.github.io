@@ -26,4 +26,5 @@ In the current implementation, an IC is considered for rejection if the probabil
 
 This technique, known as wavelet-enhanced ICA (wICA) makes use of wavelet thresholding which can conserve the tempero-spectral structure the artifacts thus allowing the brain activity that leaked into the ICs to be recovered. This implies that the wavelet technique is used to enhance the performance of the ICA artifact suppression and avoid the danger of suppressing brain activity when rejecting ICs.
 
-In the RELAX pipeline wavelet thresolding is carried out only on those ICs detected as artifacts and marked for rejection after classification by the ICLabel plugin. 
+In the RELAX pipeline wavelet thresholding is carried out only on those ICs detected as artifacts and marked for rejection after classification by the ICLabel plugin. 
+

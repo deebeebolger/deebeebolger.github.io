@@ -12,10 +12,13 @@ image:
 
 Below is a data flowchart showing the principle steps applied in the implementation of the RELAX pipeline used to preprocess the hdEEG resting-state data.
 You can access the details of each stage of the data flowchart via [this page...]({{< ref "FlowChart-Pages/index.md" >}})
+
+## Resting-state data preprocessing 
+
+Preprocessing details for a resting-state, posttest data can be accessed via [here...]({{< ref "Preprocessing-results/index.md" >}})
+
 ```mermaid
-
 flowchart TD;
-
 Config([Create RELAX config *.mat file]) --> BIDS([Prepare BIDS structure]);
 BIDS --> Ld(Load current dataset, *.bdf or *.set formats);
 Ld --> EXRej([Exclude external channels]);
