@@ -1,6 +1,6 @@
 ---
-title: Wavelet-enhanced ICA on ICLabel classified ICs
-summary: This page details the application of wavelet-enhanced ICA on ICs classified using the ICLable plugin.
+title: Wavelet thresholding of classified ICs 
+summary: This page details the application of wavelet thresholding on ICs classified by ICLable and identified for rejection 
 date: 2024-10-01
 ---
 
@@ -14,3 +14,10 @@ The computed ICs (Independent Components) are automatically classified using EEG
 - Line noise
 - Other
 
+In the current implementation, an IC is considered for rejection if the probability of it corresponding to Muscle, Ocular, Cardiac, Channel or Line noise is equal to or above 80%. 
+```matlab
+% IC classes: Brain, Muscle, Eye, Heart, LineNoise, ChannelNoise, Other
+ icThreshold    = [0 0.0; 0.8 1; 0.8 1; 0.8 1; 0.8 1; 0.8 1; 0 0];
+```
+
+![Classified ICs and wICA](classified_ICs.png "Figure 1: Example of ICs classified by ICLabel plugin according to the categories: Brain, Muscle, Other, Line Noise. In this case, no IC was marked for rejection. The ICs were computed by the infomax algorithm. ")
