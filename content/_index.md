@@ -19,8 +19,8 @@ sections:
 
     - block: collection
     content:
-      title: Overview of EEG Projects
-      subtitle:
+      title: News/Events
+      subtitle: News and current and upcoming events.
       text:
       count: 5
       filters:
@@ -31,7 +31,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: event
+      page_type: post
     design:
       view: card
       columns: '1'
