@@ -1,28 +1,28 @@
 ---
-title: Example Event
+title: Presentation of Cognitive Engineering Projects (M2 MASCO) 
 
-event: Wowchemy Conference
+event: Presentation of M2 MASCO Cognitive Engineering Projects 
 event_url: https://example.org
 
-location: Wowchemy HQ
+location: Espace Pouillon
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: St Charles Campus of Aix-Marseille University
+  city: Marseille
+  region: 
+  postcode: '13001'
+  country: France
 
 summary: An example event.
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2025-01-24T09:00:00Z'
+date_end: '2025-01-24T12:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-12-10T08:00:00Z'
 
 authors: []
 tags: []
