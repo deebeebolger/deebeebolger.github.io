@@ -1,6 +1,6 @@
 ---
-title: Preprocessing and signal quality details
-summary: This page presents the results of preprocessing and details of signal quality for restingstate, posttest data.
+title: Resting-state Preprocessing and signal quality details
+summary: This page presents the results of preprocessing and details of signal quality for restingstate, pretest and posttest data.
 date: 2024-10-16
 ---
 The following figures present a summary of the number and spatial location of the channels rejected, per participant, during the preprocessing carried out by the RELAX pipeline as well as the total time (in seconds) rejected per participant. 
