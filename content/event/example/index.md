@@ -12,8 +12,8 @@ address:
   postcode: '13001'
   country: France
 
-summary: An example event.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: The event 
+abstract: 'An opportunity to see the culmination of 2 weeks of work by the M2 MASCO students on their cognitive engineering projects; projects that combine the acquisition and manipulation of neuro/physiological signals with prototyping, brain-computer interface...The event will kick-off with a seminar by Dr. Mitsuko Aramaki from the PRISME institute. A event that promises creativity, innovation and conviviality. Not to be missed!'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
