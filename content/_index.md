@@ -16,25 +16,6 @@ sections:
         <br>
         
         The CREx (Centre de Ressources pour l'Experimentation) is composed of a team of engineers specialized in data analysis and scientific computing. Within the perimeter they apply this expertise to support studies on language and communication. The acquisition, processing and analysis of neurophysiological, neuroimaging and behavioural data (fMRI, EEG, MEG and eye-tracking) forms the core of their work. 
-
-    - block: collection
-    content:
-      title: News/Events
-      subtitle: News and current and upcoming events.
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
   
   - block: collection
     content:
