@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Thierry Legou
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Thierry
+last_name: Legou
 
 # Username (this should match the folder name)
 authors:
@@ -14,20 +14,20 @@ authors:
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Research engineer 
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: CNRS
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Signal processing : neuro/physiologic and acoustic.
+  - Prototyping for experimentation 
+  - Communication in natural environments (human and animal)
 
 education:
   courses:
