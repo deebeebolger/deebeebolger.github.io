@@ -6,7 +6,7 @@ title: Thierry Legou
 first_name: Thierry
 last_name: Legou
 
-author: ThierryLegou
+author: Thierry
 
 # Is this the primary user of the site?
 superuser: false
