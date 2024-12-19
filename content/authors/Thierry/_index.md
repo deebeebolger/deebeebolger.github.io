@@ -12,11 +12,11 @@ author: Thierry
 superuser: false
 
 # Role/position
-role: Engineer in scientifique computing and data analysis
+role: Research Engineer in scientifique computing and data analysis
 
 # Organizations/Affiliations
 organizations:
-  - name: Institute of Language, Communication and the Brain (ILCB), Aix-Marseille University (AMU)
+  - name: Centre National de la Recherche (CNRS), Laboratoire Parole et Langage (LPL)
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
