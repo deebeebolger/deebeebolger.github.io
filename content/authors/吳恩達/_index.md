@@ -27,7 +27,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 interests:
   - Signal processing : neuro/physiologic and acoustic.
   - Prototyping for experimentation 
-  - Communication in natural environments (human and animal)
+  - Communication in natural environments
 
 education:
   courses:
