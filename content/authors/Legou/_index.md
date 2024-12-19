@@ -6,9 +6,6 @@ title: Thierry Legou
 first_name: Thierry
 last_name: Legou
 
-# Username (this should match the folder name)
-authors:
-  - Legou
 
 # Is this the primary user of the site?
 superuser: false
