@@ -19,7 +19,7 @@ sections:
   
   - block: collection
     content:
-      title: Overview of EEG Projects
+      title: Upcoming events
       subtitle:
       text:
       count: 5
@@ -31,7 +31,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post
+      page_type: event
     design:
       view: card
       columns: '1'
