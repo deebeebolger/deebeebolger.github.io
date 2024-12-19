@@ -1,5 +1,5 @@
 ---
-title: Electroencephalography
+title: High-density Electroencephalography
 date: 2024-10-14
 image:
   focal_point: 'top'
